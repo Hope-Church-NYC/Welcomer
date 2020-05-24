@@ -5,5 +5,5 @@
  
  ### TODO:
  
- Add a GUI so messages can be set without having to recompile and redistribute
- Actually make the [ESC] key quit the program
+ - Add a GUI so messages can be set without having to recompile and redistribute
+ - Actually make the [ESC] key quit the program
