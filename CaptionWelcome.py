@@ -63,17 +63,19 @@ def main():
     while running:
         if not pause:
             pyautogui.typewrite(message1)
+            keyboard.press(Key.shift)
             keyboard.press(Key.enter)
             keyboard.release(Key.enter)
-            time.sleep(delay)
+            keyboard.release(Key.shift)
             pyautogui.typewrite(message2)
+            keyboard.press(Key.shift)
             keyboard.press(Key.enter)
             keyboard.release(Key.enter)
-            time.sleep(delay)
+            keyboard.release(Key.shift)
             pyautogui.typewrite(message3)
             keyboard.press(Key.enter)
             keyboard.release(Key.enter)
-            time.sleep(delay)
+            time.delay(delay)
             
     lis.stop()
 
