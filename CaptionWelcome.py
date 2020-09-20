@@ -1,5 +1,4 @@
-# Welcomer
-# Thomas Bruce 5/22/2020
+
 # A simple script that loops multiple messages in various contexts. i.e. Zoom captions for basic info about the call
 
 import pyautogui
